@@ -36,10 +36,11 @@
                     <div class="card-header-form">
                         <div class="row">
                             <div class="columna columna-50">
-                                <form action="loguear_bd.php" method="post">
-                                    <input type="text" placeholder="Nombre de usuario" name="nombreuser" class="usuario"><br>
-                                    <input type="password" placeholder="Contraseña" name="contraseña" class="pass" ><br>
+                                <form method="post" >
+                                    <input type="text" id="user"  placeholder="Nombre de usuario" name="nombreuser" class="usuario"><br>
+                                    <input type="password" id="password" placeholder="Contraseña" name="contraseña" class="pass" ><br>
                                     <input type="checkbox" class="check">Recordar nombre de usuario
+                                    <input type="hidden" id="tipo" value="login">
                                     <input type="submit" class="submit" value="Acceder" id="acceder">         
                                 </form> 
                             </div>
@@ -68,6 +69,9 @@
             </div>
         </div>
     </footer>
+    <script src="../js/login.js"></script>
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </body>
 
 </html>

@@ -17,5 +17,6 @@
 
     <!-- Script de javascript -->
     <script src="../js/multi-entrega.js"></script>
+    
 
 <?php include_once('../partials/footer_empresa.php') ?>

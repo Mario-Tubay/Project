@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,11 +18,11 @@
     <!--Javascript-->
     <script src="../js/validacionRepartidor.js"></script>
     <style>
-        .formulario-LogReg{
+        .formulario-LogReg {
             margin-top: 50px;
             margin-bottom: 100px;
         }
-
+        
         select {
             width: 100%;
         }
@@ -29,35 +30,39 @@
 </head>
 
 <body class="fondo">
-    <form class="formulario-LogReg">
-    
+    <form id="forms" class="formulario-LogReg">
+
         <h1>Registro Repartidor</h1>
-         <div class="contenedor">
-         
+        <div class="contenedor">
+
             <div class="input-contenedor">
                 <i class="fas fa-user icono"></i>
-                <input type= "text" name="nombres" id="nombres" placeholder="Nombres Completo"> 
-                <p class="error" id="error_nombre">Nombre No Valido</p>    
+                <input type="text" name="nombres" id="nombres" placeholder="Nombres Completo">
+                <p class="error" id="error_nombre">Nombre No Valido</p>
             </div>
 
             <div class="input-contenedor">
                 <i class="fas fa-id-card icono"></i>
-                <input type="text" id="identificacion" name="identificacion"  placeholder="C.I. / RUC">
-                <p class="error" id="error_identificacion">Identificación No Valida</p> 
+                <input type="text" id="identificacion" name="identificacion" placeholder="C.I. / RUC">
+                <p class="error" id="error_identificacion">Identificación No Valida</p>
             </div>
-                
+
             <div class="input-contenedor">
                 <i class="fas fa-envelope icono"></i>
                 <input type="email" id="correo" name="correo" placeholder="Correo Electrónico">
-                <p class="error" id="error_correo">Correo Electronico No Valido</p> 
+                <p class="error" id="error_correo">Correo Electronico No Valido</p>
             </div>
 
             <div class="input-contenedor">
                 <i class="fas fa-phone-alt icono"></i>
-                <input type="text" id="telefono" name="telefono" maxlength="10" placeholder="Teléfono">  
-                <p class="error" id="error_telefono">Telefono No Valido</p>   
+                <input type="text" id="telefono" name="telefono" maxlength="10" placeholder="Teléfono">
+                <p class="error" id="error_telefono">Telefono No Valido</p>
             </div>
-                
+            <div class="input-contenedor">
+                <i class="fas fa-key icono"></i>
+                <input type="text" id="pass" name="pass" maxlength="10" placeholder="Password">
+            </div>
+
             <div class="input-contenedor">
                 <p>Medio de Transporte</p>
                 <select name="transporte" id="transporte" class="select">
@@ -66,7 +71,7 @@
                     <option value="2">Automovil</option>
                     <option value="3">Motocicleta</option>
                 </select>
-                <p class="error" id="error_transporte">Seleccione el tipo de Transporte</p>    
+                <p class="error" id="error_transporte">Seleccione el tipo de Transporte</p>
             </div>
 
             <div class="input-contenedor">
@@ -77,10 +82,12 @@
                     <option value="2">Vespertino</option>
                     <option value="3">Nocturno</option>
                 </select>
-                <p class="error" id="error_horario">Seleccione un Horario</p>    
+                <p class="error" id="error_horario">Seleccione un Horario</p>
             </div>
-            
-            <button type="submit" class="button" id="enviar">Registrate</button>
+
+
+            <input type="hidden" id="tipo" value="insert">
+            <input type="submit" class="button" id="enviar" value="Registrate">
             <p class="warning" id="warning"></p>
             <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
             <p>¿Ya tienes una cuenta?<a class="link" href="login.php">Iniciar Sesion</a></p>
@@ -90,5 +97,7 @@
     <footer class="footer m-0">
         <p>&copy; Copyright 2020 By Shop Corp. Todos los derechos reservados</p>
     </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </body>
+
 </html>
