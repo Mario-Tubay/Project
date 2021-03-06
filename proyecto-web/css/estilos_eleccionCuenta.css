@@ -1,0 +1,31 @@
+.formulario-LogReg {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.container-cuentas {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-cuentas button {
+    margin: 20px;
+    width: 250px;
+    height: 200px;
+    border: none;
+    background-color: #6d6d6d;
+    border-radius: 5px;
+}
+
+.container-cuentas button a {
+    display: block;
+    width: 100%;
+    font-family: 'Andika New Basic', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-size: 1.2rem;
+}

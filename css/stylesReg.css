@@ -1,0 +1,19 @@
+input[type="text"], select[name="Fpago"]{
+    width: 100%;
+    height: 30px;
+    border: var(--color-menu) solid 1px;
+    padding: .3rem;
+    margin-bottom: .2rem;
+    transition: 300ms all;
+}
+.formGroup p{
+    display: none;
+    font-size: 0.8rem;
+   /* margin: 0.5rem;*/
+    padding-bottom: 0;
+    color: var(--color-error);
+    border: none;
+}
+.error{
+    box-shadow: 2px 2px var(--color-errorSombra),-2px -2px var(--color-errorSombra);
+}

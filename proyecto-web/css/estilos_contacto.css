@@ -1,0 +1,47 @@
+/*Estilo del footer*/
+.columna{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.columna-25{
+	width: 33%;
+}
+
+
+
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.row ul{
+	list-style-type: none;
+}
+
+.row h3{
+    color: grey;
+    font-weight: bold;
+}
+
+.contenedor-footer{
+	width: 1140px;
+	margin: 0 auto 0 auto;
+	padding-right: 15px;
+	padding-left: 15px;
+    position: relative;
+
+}
+
+.redes{
+	margin-left: 20%;
+	font-size: 30px;
+	display: flex;
+}
+
+.redes a{
+	margin: 0 7.5px;
+}
+/*FIN DEL FOOTER*/

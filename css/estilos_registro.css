@@ -1,0 +1,195 @@
+/*Contenido Principal*/
+.contenido-principal {
+    margin: 0 !important;
+    padding: 10px;
+}
+
+/*Sección Superior*/
+.top-contenido-principal {
+    align-items: center;
+}
+
+.container-busqueda {
+    display: flex;
+    width: 100%;
+}
+
+.container-btn-busqueda {
+    width: 100%;
+    height: 100%;
+}
+
+.txt-busqueda {
+    width: 250px;
+}
+
+.btn-busqueda {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 6px 12px;
+    text-decoration: none;
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+
+.container-botones {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-nuevo {
+    display: block;
+    border: none;
+    outline: none;
+    background-color: #27ae60;
+    color: white;
+    padding: 6px 2rem;
+}
+/*Fin Sección Superior*/
+
+/*Estilos Tabla*/
+.container-lista {
+    margin-top: 40px;
+    min-height: 100%;
+}
+
+.container-table {
+    overflow: auto;
+}
+
+.container-lista table {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.table-cabecera, .table-datos {
+    text-align: center;
+}
+
+.table-cabecera {
+    background-color: #34495e;
+    color: white;
+}
+
+.table-datos {
+    padding: 3px;
+}
+
+.btn-editar, .btn-eliminar {
+    border: none;
+    outline: none;
+    padding: 3px;
+}
+
+.btn-eliminar {
+    background-color: #ee5253;
+}
+
+.btn-editar {
+    background-color: #feca57;
+}
+/*Fin Estilos Tabla*/
+/*Fin Contenido Principal*/
+
+/*Estilo Ventana Modal*/
+.modal-dialog {
+    max-width: 40% !important;
+}
+
+.modal-body {
+    border: 1px solid lightgray;
+    margin: 5px;
+}
+
+.modal-body .seccion-top, .seccion-bottom, .opciones-pago {
+    display: flex;
+}
+
+.elementos-form {
+    margin-bottom: 20px;
+}
+
+.container-categria .txt_categoria {
+    width: 160px;
+}
+
+.seccion-top, .seccion-bottom {
+    justify-content: space-around;
+}
+
+/*Fin Estilos formulario Registro Empresa*/
+
+.modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-header {
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+}
+
+.modal-header .modal-title, .modal-header .close {
+    color: white;
+}
+
+.container-modal-mensaje .modal-content {
+    width: 100%;
+}
+
+/*Estilos Mensaje de Información Modal*/
+#modal-body-mensaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-imagen-aceptacion {
+    text-align: center;
+    width: 100%;
+}
+
+.container-imagen-aceptacion img {
+    width: 30%;
+}
+
+#modal-body-mensaje p {
+    text-align: center;
+}
+/*Estilos Mensaje de Información Modal*/
+/*Fin Estilos Mensaje Modal*/
+
+@media screen and (max-width: 1024px) {
+    .container-table table {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    body {
+        font-size: 1rem;
+    }
+    
+    .container-busqueda .txt-busqueda {
+        width: 50%;
+    }
+
+    .container-lista h2 {
+        font-size: 1.2rem;
+    }
+    
+    .container-table table {
+        width: 95%;
+    }
+
+    .container-table table {
+        font-size: .75rem;
+    }
+}

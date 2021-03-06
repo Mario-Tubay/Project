@@ -1,0 +1,114 @@
+.contenido .header-cli{
+    width: 100%;
+    background-color: #ffac31;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+
+.contenedor-card-cliente{
+    max-width: 1000px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+
+.cliente{
+    background-color: white;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0,095);
+    transition: all 300ms;
+    position: relative;
+}
+
+.cliente-img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px;
+    display: block;
+    margin-left: 110px;
+}
+
+.datos-cliente{
+    padding: 1em;
+    background-color: #E6C592;
+}
+
+.card-btn-cli{
+    display: block;
+    width: 100%;
+    
+    padding: 1.5rem;
+    text-align: center;
+    color: black;
+    border: none;
+    background-color: #EEEEE0;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-btn-cli:hover{
+    background-color: #F1CEC0;
+}
+
+
+/*Estilo Reporte Ganancia*/
+.formulario-Reporte{
+    
+    background-color: white;
+    margin: auto;
+    width: 800px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding:10px 10px;
+    border-radius: 2%;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0,2);
+}
+
+.contenedor-Reporte{
+    width: 100%;
+    padding: 15px;
+}
+.formulario-Reporte h1{
+    text-align: center;
+    color: #6d6d6d;
+    font-size: 40px;
+}
+
+.contenedor-Reporte input[type="text"]{
+    margin-bottom: 5px;
+    width: 30%;
+    height: 25px;
+    border: 1px solid #aaa;
+    font-size: 13px;
+}
+#buscar, #limpiar{
+    background-color: #4C538C;
+    color: white;
+    cursor: pointer;
+}
+#buscar{
+    text-align: center;
+    margin-left: 300px;
+}
+
+
+/*Fin de reporte*/
+
+
+
